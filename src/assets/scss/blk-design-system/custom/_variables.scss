@@ -102,6 +102,8 @@ $info: #1d8cf8 !default;
 $warning: #ff8d72 !default;
 $danger: #fd5d93 !default;
 $black: #222a42 !default;
+$style1: #02afd6 !default;
+$style2: #4eb8e1 !default;
 
 // gradient
 $default-states: #263148 !default;
@@ -111,9 +113,11 @@ $info-states: #3358f4 !default;
 $warning-states: #ff6491 !default;
 $danger-states: #ec250d !default;
 $black-states: #1d253b !default;
+$style1-states: #ece50d !default;
 
 $background-black: #171941 !default;
 $background-states-black: #1e1e24 !default;
+$background-style1: #ffffff !default;
 
 // opacity
 $default-opacity: rgba(182, 182, 182, 0.6) !default;
@@ -233,7 +237,8 @@ $love-color: $red !default;
 
 // Body
 
-$body-bg: $background-black !default;
+//$body-bg: $background-black !default;
+$body-bg: $background-style1 !default;
 $body-color: $gray-700 !default;
 
 // Sections

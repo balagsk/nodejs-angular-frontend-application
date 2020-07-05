@@ -8,7 +8,8 @@
         &.brand {
           .h1-seo,
           h3 {
-            color: $white;
+            //color: $white;
+            color: #227fdf;
             font-weight: 600;
             text-transform: capitalize;
             span {
@@ -31,7 +32,8 @@
 
   .squares {
     animation: move-left-right 1s infinite;
-    @include linear-gradient($primary-states, $primary);
+   // @include linear-gradient($primary-states, $primary);
+    @include linear-gradient($style1-states, $style1);
     position: absolute;
     transition: 0.5s ease-out;
     overflow: hidden;

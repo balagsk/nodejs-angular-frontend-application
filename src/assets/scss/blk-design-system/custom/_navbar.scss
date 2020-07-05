@@ -1,8 +1,10 @@
 .navbar {
-  padding: $navbar-padding-x;
+  //padding: $navbar-padding-x;
   width: $full-width;
   z-index: 1050;
-  background: $primary;
+  //background: $primary;
+  background: $style2;
+
 
   .photo {
     display: inline-block;
@@ -50,8 +52,9 @@
   }
 
   &.navbar-transparent {
-    background: $transparent-bg !important;
-    padding-top: 25px;
+    //background: $transparent-bg !important;
+    //padding-top: 25px;
+    padding-top: 1px;
   }
 
   &.bg-white {

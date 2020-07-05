@@ -18,9 +18,13 @@ import { JwBootstrapSwitchNg2Module } from "jw-bootstrap-switch-ng2";
 import { PopoverModule } from "ngx-bootstrap/popover";
 
 import { IndexComponent } from "./index/index.component";
+import { HomeComponent } from "./home/home.component";
+import { QrcodeComponent } from "./qrcode/qrcode.component";
 import { ProfilepageComponent } from "./examples/profilepage/profilepage.component";
 import { RegisterpageComponent } from "./examples/registerpage/registerpage.component";
 import { LandingpageComponent } from "./examples/landingpage/landingpage.component";
+
+
 
 @NgModule({
   imports: [
@@ -43,12 +47,16 @@ import { LandingpageComponent } from "./examples/landingpage/landingpage.compone
   ],
   declarations: [
     IndexComponent,
+    HomeComponent,
     ProfilepageComponent,
     RegisterpageComponent,
-    LandingpageComponent
+    LandingpageComponent,
+    QrcodeComponent
   ],
   exports: [
     IndexComponent,
+    HomeComponent,
+    QrcodeComponent,
     ProfilepageComponent,
     RegisterpageComponent,
     LandingpageComponent
